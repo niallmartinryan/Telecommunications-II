@@ -1,0 +1,34 @@
+package cs.tcd.ie;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.util.Timer;
+import tcdIO.Terminal;
+import java.lang.Math;
+import ArrayList;
+public class RoutingTable{
+	ArrayList<int> dest;
+	ArrayList<int> cost;
+	ArrayList<char> nextNode;
+	// only need to take in dests.. because cost will be 0
+	RoutingTable(int[] dests){
+
+		dest = new ArrayList<int>();
+		cost = new ArrayList<int>();
+		nextNode = new ArrayList<char>();
+		if(dests == null){
+			
+		}
+		else{
+			for(int i=0; i<dests.size; i++{
+				dest.add(dests[i]);
+				cost.add(0);
+			}
+		}
+	}
+
+
+
+
+
+}
